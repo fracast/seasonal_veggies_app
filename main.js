@@ -1,4 +1,7 @@
-//create app 
+/*	
+	create app
+	so i guess in the beginning I will have elements?
+*/ 
 
 var app = (function(){
 
@@ -11,6 +14,8 @@ var app = (function(){
 
 	var submitRequest = function() {
 		// read the user's input and perform an Ajax Call
+		// not sure if the URL is right to be honest
+
 		render = function(){
 			console.log('render');
 			$ajax({
@@ -30,13 +35,32 @@ var app = (function(){
 
 	var render = function() {
 		// print everything on the screen
+		// visualize months when produce is in season 
 	};
 
 	var attachEvents = function() {
 		// start listening to all the clicks etc.
-		elements.inputSubmit.addEventListener('click', function(event){
-			event.preventDefault();
-			var fieldValue = elements.inputField.value;
+
+		elements.inputSubmit.addEventListener('click', function(){
+
+			//check which month it is
+			var presentMonth = new Date();
+				presentMonth.getMonth();
+
+			if (presentMonth == veggieMonth){	 
+
+				var outerDiv = document.getElementById("season");
+				var newText = outerDiv.innerHTML="<h1>YES</h1>";
+
+			}else{
+
+				var outerDiv = document.getElementById("season");
+				var newText = outerDiv.innerHTML="<h1>NO</h1>";
+			}
+			
+			//innerHTML.append.child(outerDiv);	
+
+			//now let's put the event associated with the 	
 		})
 	};
 
@@ -49,8 +73,6 @@ var app = (function(){
 	};
 
 });
-
-	results = [];
 
 
 

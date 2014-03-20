@@ -1,353 +1,349 @@
-[
+var veggies = [
 	{
-	    name : 'Asparagus',
-	    months : ['May' 'June'], 
-	    images : [
-	      'url/to/images/images1.jpg',
+	    "name" : "Asparagus",
+	    "months" : ["May" "June"], 
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
 	      ]
-	} 
+	}, 
 	{
-	    name : 'String Beans',
-	    months : ['July' 'August' 'September' 'October'],
-	    images : [
-	      'url/to/images/images1.jpg',
+	    "name" : "String Beans",
+	    "months" : ["July" "August" "September" "October"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
 	      ]
-	} 
+	},
 	{
-	    name : 'Shell Beans',
-	    months : ['January' 'February' 'March' 'April' 'May' 'June' 'July' 'August' 'September' 'October' 'November' 'December'],
-	    images : [
-	      'url/to/images/images1.jpg',
+	    "name" : "Shell Beans",
+	    "months" : ["January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
 	      ]
-	} 
+	}, 
 	{
-	    name : 'Basil',
-	    months : ['January' 'February' 'March' 'April' 'May' 'June' 'July' 'August' 'September' 'October' 'November' 'December'],
-	    images : [
-	      'url/to/images/images1.jpg',
+	    "name" : "Basil",
+	    "months" : ["January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Beets",
+	    "months" : ["January" "February" "June" "July" "August" "September" "October" "November" "December"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	}, 
+	{
+	    "name" : "Broccoli",
+	    "months" : ["June" "July" "August" "September" "October" "November" "December"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Brussels Sprout",
+	    "months" : ["September" "October" "November"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Cabbage",
+	    "months" : ["January" "February" "March" "June" "July" "August" "September" "October" "November" "December"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Carrots",
+	    "months" : ["January" "February" "March" "July" "August" "September" "October" "November" "December"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Cauliflower",
+	    "months" : ["August" "September" "October" "November"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Celery",
+	    "months" : ["August" "September" "October"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Collard Greens",
+	    "months" : ["July" "August" "September" "October" "November" "December"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Corn",
+	    "months" :  ["July" "August" "September" "October" "November" "December"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Cucumbers",
+	    "months" : ["July" "August" "September"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Eggplant",
+	    "months" : ["August" "September" "October"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Fennel",
+	    "months" : ["September" "October" "November"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Herbs",
+	    "months" : ["June" "July" "August" "September" "October"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Kale",
+	    "months" : ["September" "October"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Lettuce",
+	    "months" : ["May" "June" "July" "August" "September" "October"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Leeks",
+	    "months" : ["July" "August" "September" "October" "November" "December"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Mesclum",
+	    "months" : ["April" "May" "June" "July" "August" "September" "October" "November"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Onion",
+	    "months" : ["January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Parsnips",
+	    "months" : ["January" "February" "March" "April" "May" "October" "November" "December"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Peas",
+	    "months" : ["June" "July" "September" "October"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Pepper",
+	    "months" : ["July" "August" "September" "October"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Potatoes",
+	    "months" : ["January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Pumpkin",
+	    "months" : ["September" "October" "November"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Radish",
+	    "months" : ["May" "June" "July" "August" "September"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Scallions",
+	    "months" : ["May" "June" "July" "August" "September"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Spinach",
+	    "months" : ["May" "June" "July" "August" "September" "October"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Summer Squash",
+	    "months" : ["May" "June" "July" "August" "September" "October"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Winter Squash",
+	    "months" : ["January" "February" "August" "September" "October" "November" "December"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Swiss Chard",
+	    "months" : ["June" "July" "August" "September" "October"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Tomatoes",
+	    "months" : ["June" "July" "August" "September" "October"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Turnips",
+	    "months" : ["January" "February" "August" "September" "October" "November" "December"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
+	      ]
+	},
+	{
+	    "name" : "Turnip Greens",
+	    "months" : ["May" "June" "July" "August"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
 	      ]
 	}
-	{
-	    name : 'Beets',
-	    months : ['January' 'February' 'June' 'July' 'August' 'September' 'October' 'November' 'December'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	} 
-	{
-	    name : 'Broccoli',
-	    months : ['June' 'July' 'August' 'September' 'October' 'November' 'December'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Brussels Sprout',
-	    months : ['September' 'October' 'November'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Cabbage',
-	    months : ['January' 'February' 'March' 'June' 'July' 'August' 'September' 'October' 'November' 'December'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Carrots',
-	    months : ['January' 'February' 'March' 'July' 'August' 'September' 'October' 'November' 'December'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Cauliflower',
-	    months : ['August' 'September' 'October' 'November'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Celery',
-	    months : ['August' 'September' 'October'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Collard Greens',
-	    months : ['July' 'August' 'September' 'October' 'November' 'December'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Corn',
-	    months :  ['July' 'August' 'September' 'October' 'November' 'December'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Cucumbers',
-	    months : [July' 'August' 'September'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Eggplant',
-	    months : ['August' 'September' 'October'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Fennel',
-	    months : ['September' 'October' 'November'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Herbs',
-	    months : ['June' 'July' 'August' 'September' 'October'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Kale',
-	    months : ['September' 'October'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Lettuce',
-	    months : ['May' 'June' 'July' 'August' 'September' 'October'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Leeks',
-	    months : ['July' 'August' 'September' 'October' 'November' 'December'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Mesclum',
-	    months : ['April' 'May' 'June' 'July' 'August' 'September' 'October' 'November'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Onion',
-	    months : ['January' 'February' 'March' 'April' 'May' 'June' 'July' 'August' 'September' 'October' 'November' 'December'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Parsnips',
-	    months : ['January' 'February' 'March' 'April' 'May' 'October' 'November' 'December'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Peas',
-	    months : ['June' 'July' 'September' 'October'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Pepper',
-	    months : ['July' 'August' 'September' 'October'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Potatoes',
-	    months : ['January' 'February' 'March' 'April' 'May' 'June' 'July' 'August' 'September' 'October' 'November' 'December'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Pumpkin',
-	    months : ['September' 'October' 'November'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Radish',
-	    months : ['May' 'June' 'July' 'August' 'September'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Scallions',
-	    months : ['May' 'June' 'July' 'August' 'September'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Spinach',
-	    months : ['May' 'June' 'July' 'August' 'September' 'October'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Summer Squash',
-	    months : ['May' 'June' 'July' 'August' 'September' 'October'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Winter Squash',
-	    months : ['January' 'February' 'August' 'September' 'October' 'November' 'December'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Swiss Chard',
-	    months : ['June' 'July' 'August' 'September' 'October'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Tomatoes',
-	    months : ['June' 'July' 'August' 'September' 'October'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Turnips',
-	    months : ['January' 'February' 'August' 'September' 'October' 'November' 'December'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
-	{
-	    name : 'Turnip Greens',
-	    months : ['May' 'June' 'July' 'August'],
-	    images : [
-	      'url/to/images/images1.jpg',
-	      ]
-	}
+];
 
 	//fruits 
 
 	{
-	    name : 'Apples',
-	    months : ['January' 'February' 'March' 'April' 'May' 'June' 'July' 'August' 'September' 'October' 'November' 'December'],
-	    images : [
-	      'url/to/images/images1.jpg',
+	    "name" : "Apples",
+	    "months" : ["January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
 	      ]
 	}
 	{
-	    name : 'Blackberries',
-	    months : ['August'],
-	    images : [
-	      'url/to/images/images1.jpg',
+	    "name" : "Blackberries",
+	    "months" : ["August"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
 	      ]
 	}
 	{
-	    name : 'Blueberries',
-	    months : ['July' 'August' 'September'],
-	    images : [
-	      'url/to/images/images1.jpg',
+	    "name" : "Blueberries",
+	    "months" : ["July" "August" "September"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
 	      ]
 	}
 	{
-	    name : 'Cantaloupes',
-	    months : ['August' 'September'],
-	    images : [
-	      'url/to/images/images1.jpg',
+	    "name" : "Cantaloupes",
+	    "months" : ["August" "September"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
 	      ]
 	}
 	{
-	    name : 'Cherries',
-	    months : ['July'],
-	    images : [
-	      'url/to/images/images1.jpg',
+	    "name" : "Cherries",
+	    "months" : ["July"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
 	      ]
 	}
 	{
-	    name : 'Grapes',
-	    months : ['September' 'October'],
-	    images : [
-	      'url/to/images/images1.jpg',
+	    "name" : "Grapes",
+	    "months" : ["September" "October"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
 	      ]
 	}
 	{
-	    name : 'Peaches',
-	    months : ['July' 'August' 'September'],
-	    images : [
-	      'url/to/images/images1.jpg',
+	    "name" : "Peaches",
+	    "months" : ["July" "August" "September"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
 	      ]
 	}
 	{
-	    name : 'Pears',
-	    months : ['January' 'February' 'September' 'October' 'November' 'December'],
-	    images : [
-	      'url/to/images/images1.jpg',
+	    "name" : "Pears",
+	    "months" : ["January" "February" "September" "October" "November" "December"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
 	      ]
 	}
 	{
-	    name : 'Plums',
-	    months : ['July' 'August' 'September'],
-	    images : [
-	      'url/to/images/images1.jpg',
+	    "name" : "Plums",
+	    "months" : ["July" "August" "September"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
 	      ]
 	}
 	{
-	    name : 'Prunes',
-	    months : ['August' 'September'],
-	    images : [
-	      'url/to/images/images1.jpg',
+	    "name" : "Prunes",
+	    "months" : ["August" "September"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
 	      ]
 	}
 	{
-	    name : 'Strawberries',
-	    months : ['June' 'July'],
-	    images : [
-	      'url/to/images/images1.jpg',
+	    "name" : "Strawberries",
+	    "months" : ["June" "July"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
 	      ]
 	}
 	{
-	    name : 'Raspberries',
-	    months : ['July' 'September' 'October'],
-	    images : [
-	      'url/to/images/images1.jpg',
+	    "name" : "Raspberries",
+	    "months" : ["July" "September" "October"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
 	      ]
 	}
 	{
-	    name : 'Watermelon',
-	    months : ['September' 'October'],
-	    images : [
-	      'url/to/images/images1.jpg',
+	    "name" : "Watermelon",
+	    "months" : ["September" "October"],
+	    "images" : [
+	      "url/to/"images"/"images"1.jpg",
 	      ]
 	}
-]
-
-
-
-
 ]
